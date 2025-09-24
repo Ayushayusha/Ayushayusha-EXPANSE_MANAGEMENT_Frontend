@@ -16,7 +16,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "expanse-management-backend-gf393uf3d-ayushs-projects-7d4ecfd9.vercel.app",
+  baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000/api",
   headers: { "Content-Type": "application/json" },
 });
 
